@@ -8,7 +8,7 @@ phases:
   pre_build:
     commands:
       - cd cicd
-      - chmod +x configure-named-profile
+      - chmod +x configure-named-profile apply-terraform.sh
       - ./configure-named-profile
       
 
